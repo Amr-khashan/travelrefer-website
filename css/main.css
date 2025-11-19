@@ -271,3 +271,88 @@ a {
 
   border: 3px solid #fe6362;
 }
+/* ------------------------------------------------- */
+.Stories-container {
+  width: 90%;
+  margin: 50px auto 70px auto;
+}
+.Stories-container h2 {
+  padding-left: 26px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.Stories-container h2::after {
+  content: "";
+  background: #ff523b;
+  width: 170px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 26px;
+
+  transform: none;
+}
+.Stories-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Stories-col {
+  flex-basis: calc((100% - 20px) / 3);
+  padding: 10px;
+  position: relative;
+}
+.Stories-col img {
+  width: 100%;
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.story-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.7);
+
+  opacity: 0;
+  transition: 0.5s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.Stories-col p {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Stories-col:hover .story-details {
+  opacity: 1;
+}
+.Stories-container a {
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin: 30px auto 50px auto;
+  padding: 4px 20px;
+  background-color: #fe6362;
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 3px solid transparent;
+}
+.Stories-container a:hover {
+  background-color: white;
+
+  color: #000000;
+
+  border: 3px solid #fe6362;
+}
