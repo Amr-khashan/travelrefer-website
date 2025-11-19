@@ -229,3 +229,45 @@ a {
   font-size: 16px;
   text-align: left;
 }
+/* ------------------------------------------------- */
+.rental-ad-container {
+  width: 90%;
+  margin: 50px auto 30px auto;
+
+  background: linear-gradient(to right, #3f2321d7, transparent),
+    url(../image/banner-2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: #ffffff;
+}
+.rental-ad-container h3 {
+  font-size: 35px;
+
+  font-weight: 800;
+  line-height: 45px;
+}
+.rental-ad-container p {
+  font-size: 16px;
+  margin: 15px 0;
+  color: #ffffffab;
+}
+.rental-ad-container a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 20px;
+  background-color: #fe6362;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 3px solid transparent;
+}
+.rental-ad-container a:hover {
+  background-color: white;
+
+  color: #000000;
+
+  border: 3px solid #fe6362;
+}
